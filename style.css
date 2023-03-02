@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Fredoka', sans-serif;
+}
+
+.conteiner {
+    width: 80%;
+    margin-inline: auto;
+}
+
+
+
+/* -------- TITOLO -------- */
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #E52868;
+}
+
+#subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+/* -------- SEZIONI -------- */
+
+section {
+    width: calc(100% / 3 - 2em);
+    height: 100%;
+    margin: 1.5em 1em;
+    background-color: black;
+    color: white;
+}
+
+/* FOTO */
+img {
+    width: 100px;
+}
+
+.left {
+    float: left;
+}
+
+/* TESTO */
+.nome {
+    font-size: 20px;
+    display: block;
+    padding: 8px 0px 0px 100px;
+}
+
+.info {
+    font-size: 12px;
+    margin-top: 7px;
+    margin-bottom: 6px;
+    padding-left: 100px;
+    display: block;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}
