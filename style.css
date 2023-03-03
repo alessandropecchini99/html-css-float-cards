@@ -49,15 +49,20 @@ section {
     margin: 1.5em 1em;
     background-color: black;
     color: white;
-    box-shadow: 0px 0px 20px grey;
+    box-shadow: 0 0 20px black;
     float: left;
+}
+
+section:hover {
+    cursor: grab;
+    box-shadow: 0 0 20px #E52868;
 }
 
 /* FOTO */
 section img {
     height: 100%;
     width: 100px;
-    margin-right: 20px;
+    margin-right: 10px;
     object-fit: cover;
     float: left;
 }
@@ -72,10 +77,11 @@ section .nome {
 section .info {
     font-size: .8rem;
     margin-top: .8em;
+    letter-spacing: 0.5px;
 }
 
 
 section a {
-    color: aqua;
+    color: #33B2E7;
     text-decoration: none;
 }
